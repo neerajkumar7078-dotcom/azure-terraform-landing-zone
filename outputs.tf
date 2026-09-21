@@ -1,3 +1,7 @@
-output "vnet_name" {
-  value = module.network.vnet_name
+output "resource_group" {
+  value = azurerm_resource_group.rg.name
+}
+
+output "virtual_network" {
+  value = azurerm_virtual_network.vnet.name
 }
