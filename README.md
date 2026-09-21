@@ -18,3 +18,8 @@ terraform init
 terraform plan
 terraform apply
 ```
+Enterprise Azure infrastructure built using Terraform following Infrastructure as Code best practices.
+
+## 🏗️ Architecture
+
+![Architecture](docs/architecture.png)
