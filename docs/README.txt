@@ -1,1 +1,3 @@
-Architecture diagrams will be stored here.
+## 🏗️ Architecture
+
+![Architecture](docs/architecture.png)
