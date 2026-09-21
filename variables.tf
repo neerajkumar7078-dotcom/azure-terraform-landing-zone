@@ -1,11 +1,17 @@
 variable "location" {
-  default = "Central India"
+  description = "Azure region"
+  type        = string
+  default     = "Central India"
 }
 
 variable "resource_group_name" {
-  default = "rg-landingzone-dev"
+  description = "Resource Group name"
+  type        = string
+  default     = "rg-landingzone-dev"
 }
 
 variable "vnet_name" {
-  default = "vnet-dev"
+  description = "Virtual Network name"
+  type        = string
+  default     = "vnet-dev"
 }
